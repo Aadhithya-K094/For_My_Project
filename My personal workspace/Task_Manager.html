@@ -14,17 +14,18 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <!--Navbar -->
-    <Header >
-        <Nav class="navbar navbar-dark bg-dark">
+    <Header>
+        <Nav class="navbar navbar-dark bg-dark navbar-expand-lg " >
             <div class="container">
                 <a class="navbar-brand " href="#">Task Manager</a>
-                <div>
-                <ul class="navbar-nav">
-                    <Li class="navbar-item"><a href="#">Dashboard</a></Li>
-                    <li class="navbar"><a href="#">Tasks</a></li>
-                    <li><a href="#">Report</a></li>
-                </ul>
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarnav">
+                    <ul class="navbar-nav ms-auto ">
+                        <Li class="navbar-item"><a class="nav-link active" href="#">Dashboard</a></Li>
+                        <li class="navbar-item"><a class="nav-link" href="#">Task</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="#">Report</a></li>
+                    </ul>
+                </div>
             </div>
         </Nav>
     </Header>
